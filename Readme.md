@@ -1,4 +1,4 @@
-## Assignment Name: Project Phase 1
+## Assignment Name: Project Phase 2
 
 ## Name : Daxil Patel
 
@@ -24,6 +24,8 @@
 
 - [x] Made it Responsive and Comptiable for all devices.
 
+- [x] Add Javascript and Jquery
+
 
 
 
@@ -38,5 +40,7 @@
 - https://www.w3.org/html/ [ for HTML tag]
 
 - https://html-color-codes.info/colors-from-image/
+
+- https://jquery.com/
 
 

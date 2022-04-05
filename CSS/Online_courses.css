@@ -238,3 +238,21 @@ row {
   }
 
 }
+
+.extrainfo,.extrainfo2,.extrainfo3
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:medium;
+}
+
+button {
+  background-color: #333;
+  border: none;
+  border-radius: 18px;
+  font-size: 12px;
+  padding: 13px 29px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

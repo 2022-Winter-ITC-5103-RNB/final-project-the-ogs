@@ -50,6 +50,11 @@ body {
       color: rgb(247, 234, 234);
   }
 
+  span
+  {
+    color: red;
+  }
+
   
   /* Float signup buttons and add an equal width */
    .signupbtn {
@@ -83,7 +88,7 @@ body {
       height: 100%;
 
   
-      background-size: 496%;
+      background-size: 428%;
       background-position: 30%;
     }
     main {   

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/favicon.ico">
+    <link rel="stylesheet" href="css/gym_employment.css">
+    <title>Employment</title>
+    <script src="JavaScript/gym_employment.js"></script>
+</head>
+<body>
+    <nav >
+
+        <header>
+            <a href="Home.html">
+            <img src="Images/logo1.png" id="logo"></a>
+          </header>
+          <!-- Navigation Bar -->
+          <navbar>
+            <a href="gym_employment.html">GYM JOB</a>
+              <a href="BMI.html">BMI REPORT</a>
+              <a href="login.html">LOGIN</a>
+              <a href="Sign_Up.html">SIGN UP</a>
+              <a href="#">CONTACT US</a>
+          </navbar>
+       
+    </nav>
+
+    <center>
+        <div class="image_section">
+            <marquee scrollamount="15">
+                <img src="Images/ART_FitnessPhotoshoot-8690e22b.jpeg" id="gym_photo"alt="gym_photo">
+                <img src="Images/Fitness-photography-anush-gorak.webp" id="gym_photo"alt="gym_photo">
+                <img src="Images/valery-sysoev-LDAirERNzew-unsplash.jpg" id="gym_photo"alt="gym_photo">
+                <img src="Images/dumbbell-arms-man-fitness-gym.jpg" id="gym_photo"alt="gym_photo">
+            </marquee>
+        </div>
+        </div>
+    </center>
+    <hr>
+    <h1>Emplyment Form</h1>
+    <section class="employment_form">
+        <form id="form" onsubmit="return validation()">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label for="fname" id="fname1">First Name: </label>
+                <input type="text" id="fname" name="fname"/>&nbsp;&nbsp;<span id="fname_span">*</span><br><br>
+                <label for="lname" id="lname1">Last Name: </label>
+                <input type="text" id="lname" name="lname" />&nbsp;&nbsp;<span id="lname_span">*</span><br><br>
+                <label for="gender">Gender:<span>*</span></label><br>
+                <input type="radio" name="radio_gender" id="radio_gender" value="Male" checked required/>
+                <label for="gender" id="radio_male" >Male</label><br>
+                <input type="radio" name="radio_gender" id="radio_gender" value="Female" required/>
+                <label for="gender" id="radio_female">Female</label><br>
+                <input type="radio" name="radio_gender" id="radio_gender" value="Other" required/>
+                <label for="radio_other" id="other">Other</label><br><br>
+                <label for="phone_no" id="phone_no1">Phone Number:</label>
+                <input type="number" id="phone_no" name="phone_no" />&nbsp;&nbsp;<span id="phone_no_span">*</span><br><br>
+                <label for="email" id="email1">Email:</label>
+                <input type="email" id="email" name="email"/>&nbsp;&nbsp;<span id="email_span">*</span><br><br>
+                <label for="address" id="address" >Address:</label><br>
+                <textarea name="address" id="address" rows="5" cols="25">
+                </textarea><br><br>
+                <label for="employment_type">Employment Type:</label><br>
+                <select id="employment_type" required>
+                    <option value="part_time">Part-Time</option>
+                    <option value="full_time">Full-Time</option>
+                    <option value="freelancing">Freelancing</option>
+                </select><br><br>
+                <label for="message" id="message">Any Message: </label><br>
+                <textarea name="message" rows="5" cols="25">
+                </textarea><br><br>
+                <input type="submit" value="Submit" id="submit">
+            </fieldset>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <section class="Customer_Service">
+            <h3>Customer Service</h3>
+
+            <ul>
+
+                <li><a href="Contact_us.html">CONTACT US</a></li>
+                <li><a href="repot.html">REPORT</a></li>
+                <li><a href="Dashboard.html">DASHBOARD</a></li>
+
+
+            </ul>
+        </section>
+
+        <section class="About">
+
+            <h3>About</h3>
+
+            <ul>
+
+                <li><a href="About_us.html">ABOUT US</a></li>
+                <li><a href="Service.html">Service</a></li>
+
+            </ul>
+        </section>
+    </footer>
+    
+    <section class="copyright">
+        <p>&copy; CopyRight 2022 Fitness World</p>
+    </section>
+    
+</body>
+</html>
