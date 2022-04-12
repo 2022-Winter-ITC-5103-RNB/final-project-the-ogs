@@ -5,7 +5,7 @@ body {
   width: 100%;
   overflow: auto;
   display: flex;
-  background-color: #333;
+  background-color: #222b3d;
 }
 
 .logo {
@@ -56,19 +56,12 @@ body {
   padding: 5px 10px;
 }
 
-
-
 @media screen and (max-width: 1000px) {
   .links li {
     padding-left: 1%;
     padding-right: 1%;
-    font-size:17px;
+    font-size: small;
   }
-  .extrainfo, .extrainfo2, .extrainfo3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: xx-small;
-}
-
 }
 @media screen and (min-width: 485px) and (max-width: 550px) {
   .logo {
@@ -84,35 +77,28 @@ body {
   .links li {
     padding-left: 1%;
     padding-right: 1%;
-    font-size: 10px;
-  }
-  .main_box1 {
     
-    height: 500px;
+    font-size:17px;
   }
-.extrainfo1
-{
-  font-size: 1px;
-}
 }
 
-@media screen and (max-width: 485px) {
-  .logo {
-    width: 10%;
+@media screen and (max-width: 485px)  {
+    .logo {
+      width: 10%;
+    }
+    .logo img {
+      width: 100%;
+      height: 15%;
+    }
+    .links {
+      width: 90%;
+    }
+    .links li {
+        padding-left: 1%;
+        padding-right: 1%;
+        font-size:10px;
+      }
   }
-  .logo img {
-    width: 100%;
-    height: 15%;
-  }
-  .links {
-    width: 90%;
-  }
-  .links li {
-    padding-left: 1%;
-    padding-right: 1%;
-    font-size: xx-small;
-  }
-}
 
 .footer {
   background-color: #333;
@@ -148,65 +134,33 @@ body {
   color: white;
 }
 
-/*
-  .NavBar2
-  {
-      overflow: hidden;
-      background-color: #4a4e57;
-      display: flex;
-      width: 100%;
-  }
-
-  .NavBar2 a
-  {
-      float: left;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }*/
-
-.main_box1 {
-  display: flex;
-  width: 88%;
-  height: 380px;
-  margin: 3% 6% 3% 6%;
-  border-radius: 20px;
-  background: rgba(0, 0, 0, 0.7);
-  box-sizing: border-box;
-  color: #fff;
+.blog1 {
+  margin: 3% 12.5% 3% 12.5%;
+  
 }
-
-h1 {
-  text-align: center;
+.heading_blog1 {
+  font-size: 25px;
+  font-weight: bolder;
 }
-iframe {
-  padding: 1% 3% 1% 3%;
-  width: 80%;
-  height: 90%;
+#img_blog1 {
+  padding-left: 25.5%;
+  padding-right: 25.5%;
+  padding-bottom: 5%;
+  width: 45%;
+  height: 35%;
 }
-.thumanail {
-  width: 44%;
+.para_blog1 item {
+  font-size: 50px;
 }
-.descption {
-  width: 55%;
-  text-align: center;
-  font-size: larger;
+.para_blog1 {
+  text-align: justify;
+  text-justify: inter-word;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-#title {
-  width: 100%;
-}
-#para {
-  font-size: medium;
-  text-align: left;
-  padding-left: 1%;
-}
-.extrainfo1
-{
-  font-size: xx-small;
-}
+
+.slide {display:none;}
+
 header {
 
   text-align: center;
@@ -257,20 +211,4 @@ row {
 
 }
 
-.extrainfo,.extrainfo2,.extrainfo3
-{
-  font-family: 'Times New Roman', Times, serif;
-  font-size:small;
-}
 
-button {
-  background-color: #333;
-  border: none;
-  border-radius: 18px;
-  font-size: 12px;
-  padding: 13px 29px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}

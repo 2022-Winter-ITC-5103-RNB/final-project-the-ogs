@@ -1,6 +1,7 @@
 body
 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(114, 109, 109);
 } 
 
 .NavBar 
@@ -57,7 +58,7 @@ body
   display: block;
   font-weight: bold;
   text-align: center;
-  color: orange;
+  color: gray;
 }
 
 .links li a:hover 
@@ -72,6 +73,7 @@ body
     width:70%;
     /* border:1px solid black; */
     display: block;
+    background-color: rgb(114, 109, 109);
 }
 
 #gym_photo
@@ -88,7 +90,7 @@ hr
 
 h1
 {
-    color: darkblue;
+    color: black;
     text-align: center;
 }
 
@@ -102,11 +104,15 @@ h1
 
 #submit
 {
-    padding: 1%;
-    width: 90px;
-    border-radius: 12px;
-    background-color: orange;
-    color: black;;
+  background-color: #333;
+  border: none;
+  border-radius: 18px;
+  font-size: 18px;
+  padding: 13px 29px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 #submit:hover
@@ -130,7 +136,7 @@ input,textarea
 
 label,legend
 {
-    color: orange;
+    color: gray;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
