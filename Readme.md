@@ -14,11 +14,11 @@
 
 ## Pages
 
-- [x] Daxil: 
+- [x] Daxil: Blog1(Deadlift), Blog2(Squat), BMI, Gym_Equipments, Home, online_course_1(ATHLEAN-X), online_course_2(Fraser Wilson).
 
-- [x] Added Javascript and CSS to the pages.
+- [x] Preet: login, about_us_1, contact_us, contact_us_reply, gym_employment.
 
-- [x] Created Logo for the project and favicon image.
+- [x] Devang: Sign_up, FAQ, About_Us, ex(Plant based Diet), h(Medittarian Diet), index(Workout Plan).
 
 - [x] Made it Responsive and Comptiable for all devices.
 
