@@ -20,9 +20,7 @@
 
 - [x] Devang: Sign_up, FAQ, About_Us, ex(Plant based Diet), h(Medittarian Diet), index(Workout Plan).
 
-- [x] Made it Responsive and Comptiable for all devices.
 
-- [x] Add Javascript and Jquery
 
 ## Tasks
 
