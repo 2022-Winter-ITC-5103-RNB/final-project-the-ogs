@@ -14,9 +14,15 @@
 
 ## Student Number : N01476627
 
+## Pages
+
+- [x] Daxil: Blog1(Deadlift), Blog2(Squat), BMI, Gym_Equipments, Home, online_course_1(ATHLEAN-X), online_course_2(Fraser Wilson).
+
+- [x] Preet: login, about_us_1, contact_us, contact_us_reply, gym_employment.
+
+- [x] Devang: Sign_up, FAQ, About_Us, ex(Plant based Diet), h(Medittarian Diet), index(Workout Plan).
+
 ## Tasks
-
-
 
 - [x] Merge multiple pages and group it as a working project.
 
