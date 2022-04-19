@@ -1,4 +1,4 @@
-## Assignment Name: Project Phase 3
+## Assignment Name: Final Project
 
 ## Project Link : https://2022-winter-itc-5103-rnb.github.io/final-project-the-ogs/Home.html
 
