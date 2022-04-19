@@ -12,9 +12,19 @@
 
 ## Student Number : N01476627
 
+## Pages
+
+- [x] Daxil: 
+
+- [x] Added Javascript and CSS to the pages.
+
+- [x] Created Logo for the project and favicon image.
+
+- [x] Made it Responsive and Comptiable for all devices.
+
+- [x] Add Javascript and Jquery
+
 ## Tasks
-
-
 
 - [x] Merge multiple pages and group it as a working project.
 
